@@ -1,0 +1,109 @@
+# Свадебное приглашение
+
+Персональный сайт-приглашение на свадьбу с RSVP, обратным отсчётом, картой и программой дня.
+
+## Возможности
+
+- Красивый одностраничный сайт с анимациями
+- Обратный отсчёт до даты свадьбы
+- Карта места проведения (Яндекс.Карты)
+- Программа дня и дресс-код
+- Галерея фотографий
+- RSVP-форма с валидацией
+- Сохранение ответов в Google Sheets
+- Уведомления в Telegram (опционально)
+- Кнопка «Добавить в календарь» (.ics)
+- OG-превью для мессенджеров
+
+## Быстрый старт
+
+```bash
+npm install
+cp .env.example .env.local
+npm run dev
+```
+
+Откройте [http://localhost:3000](http://localhost:3000).
+
+## Настройка данных
+
+Все тексты, даты и контакты редактируются в одном файле:
+
+```
+config/wedding.ts
+```
+
+Замените имена, дату, адрес, программу, фото и контакты на свои.
+
+### Фотографии
+
+Положите свои фото в `public/photos/`:
+
+- `hero.jpg` — главное фото (1920×1080+)
+- `photo-1.jpg`, `photo-2.jpg`, `photo-3.jpg` — галерея
+
+## RSVP через Google Sheets
+
+1. Создайте Google Таблицу с листом `RSVP` и колонками:
+   `Timestamp | Имя | Статус | Гостей | Меню | Аллергии | Комментарий`
+2. Создайте Service Account в [Google Cloud Console](https://console.cloud.google.com/)
+3. Включите Google Sheets API
+4. Скачайте JSON-ключ и дайте Service Account доступ к таблице (редактор)
+5. Заполните переменные в `.env.local`:
+
+```env
+GOOGLE_SERVICE_ACCOUNT_EMAIL=your-service@project.iam.gserviceaccount.com
+GOOGLE_SERVICE_ACCOUNT_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
+GOOGLE_SHEETS_ID=ваш_id_таблицы
+```
+
+Без настройки Google Sheets форма всё равно работает — ответы логируются на сервере.
+
+## Telegram-уведомления
+
+```env
+TELEGRAM_BOT_TOKEN=123456:ABC...
+TELEGRAM_CHAT_ID=123456789
+```
+
+## Деплой на Vercel
+
+1. Подключите репозиторий к [Vercel](https://vercel.com)
+2. Добавьте переменные окружения из `.env.example`
+3. Укажите `NEXT_PUBLIC_SITE_URL` — URL вашего сайта
+4. Деплой произойдёт автоматически при push в `main`
+
+### Кастомный домен
+
+В настройках Vercel → Domains добавьте свой домен (например, `anna-i-petr.ru`).
+
+## Персональные ссылки для гостей
+
+Добавьте параметр `?guest=Имя` к ссылке — имя подставится в форму автоматически:
+
+```
+https://ваш-сайт.ru/?guest=Иван%20Иванов
+```
+
+## Стек
+
+- Next.js 16 (App Router)
+- Tailwind CSS 4
+- Framer Motion
+- React Hook Form + Zod
+- Google Sheets API
+- Vercel
+
+## Структура проекта
+
+```
+app/              — страницы и API routes
+components/       — секции сайта
+config/           — данные свадьбы
+lib/              — утилиты (Sheets, ICS, Telegram)
+public/photos/    — фотографии
+```
+
+## Лицензия
+
+MIT
