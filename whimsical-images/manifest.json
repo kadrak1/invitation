@@ -1,56 +1,7 @@
 {
-  "6tTbkXggWgQCAJ4DO2QEdXXmgM.svg": {
-    "url": "https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg",
-    "bytes": 214,
-    "sources": [
-      "Countdown.BHY_bPvv.mjs",
-      "html"
-    ]
-  },
-  "11KSGbIZoRSg4pjdnUoif6MKHI.svg": {
-    "url": "https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg",
-    "bytes": 215,
-    "sources": [
-      "Countdown.BHY_bPvv.mjs",
-      "html"
-    ]
-  },
-  "7LPUQldg1w5B1Zrz0pCfh0AeQw.png": {
-    "url": "https://framerusercontent.com/assets/7LPUQldg1w5B1Zrz0pCfh0AeQw.png",
-    "bytes": 111456,
-    "sources": [
-      "UDi18XZOt.D8WrUlwZ.mjs",
-      "html",
-      "siteMetadata.BO-p7Y59.mjs"
-    ]
-  },
-  "0Kj3SYeVnofFFPYZupnBgL8iF4.jpeg": {
-    "url": "https://framerusercontent.com/images/0Kj3SYeVnofFFPYZupnBgL8iF4.jpeg",
-    "bytes": 221349,
-    "sources": [
-      "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
-      "html"
-    ]
-  },
   "BS00HRHT5NWobvzo4WjW9UA763g.png": {
     "url": "https://framerusercontent.com/images/BS00HRHT5NWobvzo4WjW9UA763g.png",
     "bytes": 14322,
-    "sources": [
-      "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
-      "html"
-    ]
-  },
-  "C4uVdaa65I6JQXJENtPLtXzAzm4.jpeg": {
-    "url": "https://framerusercontent.com/images/C4uVdaa65I6JQXJENtPLtXzAzm4.jpeg",
-    "bytes": 183804,
-    "sources": [
-      "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
-      "html"
-    ]
-  },
-  "CrkrJDdeoM65OHFWoOmjt0Jln9Y.png": {
-    "url": "https://framerusercontent.com/images/CrkrJDdeoM65OHFWoOmjt0Jln9Y.png",
-    "bytes": 454,
     "sources": [
       "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
       "html"
@@ -61,14 +12,6 @@
     "bytes": 102933,
     "sources": [
       "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
-      "html"
-    ]
-  },
-  "3vpFOuN5tHb2JuYqzoPGPaRcA.png": {
-    "url": "https://framerusercontent.com/images/3vpFOuN5tHb2JuYqzoPGPaRcA.png",
-    "bytes": 7568,
-    "sources": [
-      "KHQgVYK_f.B2rxstSH.mjs",
       "html"
     ]
   },
@@ -159,20 +102,6 @@
       "html"
     ]
   },
-  "O3szoASldqWFjoAkrjVgpQhpe3A.png": {
-    "url": "https://framerusercontent.com/images/O3szoASldqWFjoAkrjVgpQhpe3A.png",
-    "bytes": 7038,
-    "sources": [
-      "script_main.BaKMIt8F.mjs"
-    ]
-  },
-  "QenpdsxekcGblQYXRuoiDLSOABs.png": {
-    "url": "https://framerusercontent.com/images/QenpdsxekcGblQYXRuoiDLSOABs.png",
-    "bytes": 6503,
-    "sources": [
-      "script_main.BaKMIt8F.mjs"
-    ]
-  },
   "64NTAFiZlzU2kGaVG82xflIhbqk.png": {
     "url": "https://framerusercontent.com/images/64NTAFiZlzU2kGaVG82xflIhbqk.png",
     "bytes": 703264,
@@ -184,22 +113,6 @@
   "KBiow1jmaeWHazxshSNGQ08lvw.png": {
     "url": "https://framerusercontent.com/images/KBiow1jmaeWHazxshSNGQ08lvw.png",
     "bytes": 980133,
-    "sources": [
-      "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
-      "html"
-    ]
-  },
-  "VRr5oPbK8EC2e8xlsQcVIsS47c.png": {
-    "url": "https://framerusercontent.com/images/VRr5oPbK8EC2e8xlsQcVIsS47c.png",
-    "bytes": 385,
-    "sources": [
-      "html",
-      "siteMetadata.BO-p7Y59.mjs"
-    ]
-  },
-  "SdIUakYEIKxJCq0s01mrWj4BKQo.jpeg": {
-    "url": "https://framerusercontent.com/images/SdIUakYEIKxJCq0s01mrWj4BKQo.jpeg",
-    "bytes": 162332,
     "sources": [
       "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
       "html"
@@ -229,24 +142,9 @@
       "html"
     ]
   },
-  "Zkho1ZBitcL8cRrDurkSmMrxx20.png": {
-    "url": "https://framerusercontent.com/images/Zkho1ZBitcL8cRrDurkSmMrxx20.png",
-    "bytes": 470,
-    "sources": [
-      "script_main.BaKMIt8F.mjs"
-    ]
-  },
   "ZcRhO3OIg6FxXJGYnWlxDDJdt00.png": {
     "url": "https://framerusercontent.com/images/ZcRhO3OIg6FxXJGYnWlxDDJdt00.png",
     "bytes": 54790,
-    "sources": [
-      "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
-      "html"
-    ]
-  },
-  "aChwehMvk5FZArKT2uepPFSzLc.jpeg": {
-    "url": "https://framerusercontent.com/images/aChwehMvk5FZArKT2uepPFSzLc.jpeg",
-    "bytes": 172857,
     "sources": [
       "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
       "html"
@@ -281,13 +179,6 @@
     "bytes": 145654,
     "sources": [
       "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
-      "html"
-    ]
-  },
-  "crQk5UzfRd9W9n54FdrUY2WUTU.png": {
-    "url": "https://framerusercontent.com/images/crQk5UzfRd9W9n54FdrUY2WUTU.png",
-    "bytes": 752,
-    "sources": [
       "html"
     ]
   },
@@ -339,13 +230,6 @@
       "html"
     ]
   },
-  "iWobU73DxUodk4WEwzkuzjCsk6s.png": {
-    "url": "https://framerusercontent.com/images/iWobU73DxUodk4WEwzkuzjCsk6s.png",
-    "bytes": 3419,
-    "sources": [
-      "script_main.BaKMIt8F.mjs"
-    ]
-  },
   "LoSKPEWODa1GunmbO0EegZ6Nz3c.png": {
     "url": "https://framerusercontent.com/images/LoSKPEWODa1GunmbO0EegZ6Nz3c.png",
     "bytes": 2509533,
@@ -362,13 +246,6 @@
       "html"
     ]
   },
-  "mTNpaCYEtvbU38EdLAwWSkz3I.png": {
-    "url": "https://framerusercontent.com/images/mTNpaCYEtvbU38EdLAwWSkz3I.png",
-    "bytes": 457,
-    "sources": [
-      "script_main.BaKMIt8F.mjs"
-    ]
-  },
   "jCuNHP5Ac6wXitZpW034izWL8.png": {
     "url": "https://framerusercontent.com/images/jCuNHP5Ac6wXitZpW034izWL8.png",
     "bytes": 98941,
@@ -383,13 +260,6 @@
     "sources": [
       "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
       "html"
-    ]
-  },
-  "hQ7kq7nwm4rhjd0QsyrxKmHaUk.png": {
-    "url": "https://framerusercontent.com/images/hQ7kq7nwm4rhjd0QsyrxKmHaUk.png",
-    "bytes": 784370,
-    "sources": [
-      "script_main.BaKMIt8F.mjs"
     ]
   },
   "nANJUUA3JunmZmLf3Peu7TbmMU.png": {
@@ -429,13 +299,6 @@
     "bytes": 545604,
     "sources": [
       "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
-      "html"
-    ]
-  },
-  "vqNg8mNroPNlpAOMAK02feK2gc.png": {
-    "url": "https://framerusercontent.com/images/vqNg8mNroPNlpAOMAK02feK2gc.png",
-    "bytes": 389,
-    "sources": [
       "html"
     ]
   },
@@ -501,13 +364,6 @@
     "sources": [
       "-EtV02bq244NJB6hLOLjlLZw0jzJpUma8wXnNdeh1D8.5Yse-p-O.mjs",
       "html"
-    ]
-  },
-  "uvtfU55yBafBFhT3feL3T68KJs.png": {
-    "url": "https://framerusercontent.com/images/uvtfU55yBafBFhT3feL3T68KJs.png",
-    "bytes": 702012,
-    "sources": [
-      "script_main.BaKMIt8F.mjs"
     ]
   },
   "zBBH7icAYR0OpqziDnEQFIFyRE.png": {
