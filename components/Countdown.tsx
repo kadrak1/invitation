@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { weddingConfig } from "@/config/wedding";
-import { AnimatedSection } from "./AnimatedSection";
 
 type TimeLeft = {
   days: number;
@@ -45,37 +44,38 @@ export function Countdown() {
   }, [target]);
 
   return (
-    <AnimatedSection className="bg-[#FAF7F2] px-6 py-20">
-      <div className="mx-auto max-w-3xl text-center">
-        <p className="mb-2 text-sm uppercase tracking-[0.3em] text-[#C9A96E]">
-          До торжества осталось
-        </p>
-        <h2 className="font-serif text-3xl text-[#2C4A3E] sm:text-4xl">
-          {timeLeft ? "Считаем дни..." : "Этот день настал!"}
-        </h2>
+    <section className="whim-countdown">
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+      >
+        Обратный отсчёт начался
+      </motion.p>
+      <motion.h2
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+      >
+        {timeLeft ? "До нашей встречи" : "Этот день настал"}
+      </motion.h2>
 
-        {timeLeft && (
-          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
-            {units.map(({ key, label }, i) => (
-              <motion.div
-                key={key}
-                className="rounded-2xl border border-[#C9A96E]/30 bg-white px-4 py-6"
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
-              >
-                <span className="block font-serif text-4xl text-[#2C4A3E] sm:text-5xl">
-                  {String(timeLeft[key]).padStart(2, "0")}
-                </span>
-                <span className="mt-1 block text-xs uppercase tracking-wider text-[#2C4A3E]/60">
-                  {label}
-                </span>
-              </motion.div>
-            ))}
-          </div>
-        )}
-      </div>
-    </AnimatedSection>
+      {timeLeft && (
+        <div className="whim-time-grid">
+          {units.map(({ key, label }, i) => (
+            <motion.div
+              key={key}
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.1 }}
+            >
+              <strong>{String(timeLeft[key]).padStart(2, "0")}</strong>
+              <span>{label}</span>
+            </motion.div>
+          ))}
+        </div>
+      )}
+    </section>
   );
 }
